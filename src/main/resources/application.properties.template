@@ -1,12 +1,12 @@
 # Nom de l'application (pour Spring Cloud / Eureka)
-spring.application.name=product-service
+spring.application.name=service-name
 
-# Configuration de la base de données PostgreSQL
-spring.datasource.url=jdbc:postgresql://localhost:5432/product-service
-spring.datasource.username=postgres
-spring.datasource.password=Passer@1949
+# Configuration de la base de donnÃ©es PostgreSQL
+spring.datasource.url=jdbc:postgresql://HOST:PORT/DB_NAME
+spring.datasource.username=USERNAME
+spring.datasource.password=PASSWORD
 
-# Spécifie le driver JDBC pour PostgreSQL
+# SpÃ©cifie le driver JDBC pour PostgreSQL
 spring.datasource.driver-class-name=org.postgresql.Driver
 
 # JPA / Hibernate
@@ -17,5 +17,5 @@ spring.jpa.show-sql=true
 # Configuration Eureka
 #eureka.client.service-url.defaultZone=http://eureka:password@localhost:8761/eureka
 
-# Pour un port aléatoire
-server.port=5271
+# Pour un port alÃ©atoire
+server.port=PORT
